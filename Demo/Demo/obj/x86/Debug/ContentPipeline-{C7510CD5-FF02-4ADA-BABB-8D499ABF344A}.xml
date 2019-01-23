@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Textures\ground.bmp</Source>
+      <Name>Textures\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\ground.xnb</Output>
+      <Time>2018-02-25T09:21:57.0735584+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\circus.bmp</Source>
+      <Name>Textures\circus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\circus.xnb</Output>
+      <Time>2018-03-01T08:04:26.4597234+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ground.x</Source>
+      <Name>Models\ground</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Models\ground.xnb</Output>
+      <Time>2018-03-28T14:02:23.2549903+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\Models\ground_0.xml</Key>
+        <Value>2018-03-28T14:03:47.3207129+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\ground_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\lantern.x</Source>
+      <Name>Models\lantern</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Models\lantern.xnb</Output>
+      <Time>2018-03-28T14:03:44.179233+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\Models\lantern_0.xml</Key>
+        <Value>2018-03-28T14:03:47.8519691+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\sphere_0.xnb</Request>
+      <Request>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\slup.bmp2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Effects\Specular.fx</Source>
+      <Name>Effects\Specular</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Effects\Specular.xnb</Output>
+      <Time>2018-03-19T21:52:27.8529122+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SpecularG.fx</Source>
+      <Name>Effects\SpecularG</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Effects\SpecularG.xnb</Output>
+      <Time>2018-03-19T22:00:46.1969764+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ground.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\Models\ground_0.xml</Output>
+      <Time>2018-03-28T14:02:23.2549903+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\lantern.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\Models\lantern_0.xml</Output>
+      <Time>2018-03-28T14:03:44.179233+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\hovercraft2.x</Source>
+      <Name>Models\hovercraft2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Models\hovercraft2.xnb</Output>
+      <Time>2018-03-19T21:09:31.505747+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\Models\hovercraft2_0.xml</Key>
+        <Value>2018-03-19T21:09:32.6145375+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\hovercraft2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\hovercraft2.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\Models\hovercraft2_0.xml</Output>
+      <Time>2018-03-19T21:09:31.505747+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\circusbig.x</Source>
+      <Name>Models\circusbig</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Models\circusbig.xnb</Output>
+      <Time>2018-03-19T21:11:25.3261296+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\Models\circusbig_0.xml</Key>
+        <Value>2018-03-19T21:11:26.9508829+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\circus_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\circusbig.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\Models\circusbig_0.xml</Output>
+      <Time>2018-03-19T21:11:25.3261296+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\hovercraft2.bmp</Source>
+      <Name>Textures\hovercraft2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\hovercraft2.xnb</Output>
+      <Time>2018-03-19T21:08:28.4587193+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\hovercraft2.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\hovercraft2_0.xnb</Output>
+      <Time>2018-03-19T21:08:28.4587193+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\circus.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\documents\visual studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\circus_0.xnb</Output>
+      <Time>2018-03-01T08:04:26.4597234+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\slup.bmp2.bmp</Source>
+      <Name>Textures\slup.bmp2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\slup.bmp2.xnb</Output>
+      <Time>2018-03-28T14:03:27.1607267+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\sphere.bmp</Source>
+      <Name>Textures\sphere</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\sphere.xnb</Output>
+      <Time>2018-03-28T14:03:27.3842573+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\ground.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\ground_0.xnb</Output>
+      <Time>2018-02-25T09:21:57.0735584+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\sphere.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\sphere_0.xnb</Output>
+      <Time>2018-03-28T14:03:27.3842573+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\slup.bmp2.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\Textures\slup.bmp2_0.xnb</Output>
+      <Time>2018-03-28T14:03:27.1607267+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{C7510CD5-FF02-4ADA-BABB-8D499ABF344A}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\DemoContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Euronet\Documents\Visual Studio 2015\Projects\Demo\Demo\Demo\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2017-12-30T17:39:23.3612561+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
